@@ -125,6 +125,8 @@ transform: scale(1.05);
 }
 
 .card2 {
+  display:flex;
+  flex-wrap: wrap;
   border: none;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -155,4 +157,48 @@ transform: scale(1.05);
 
 .cardimg { 
   width: 25em;
+}
+
+li { 
+  list-style: none;
+  margin-right: 40px;
+  display:flex;
+  justify-content: center;
+}
+
+.one-col {
+  width: 50em;
+  margin-top: 10px;
+ 
+  /* margin: 0 auto; */
+}
+
+.centerEverything {
+display:flex;
+justify-content: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #344E41;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #3A5A40;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #588157;
 }
